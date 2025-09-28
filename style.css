@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+input,
+button {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+#listas-container .lista {
+  background: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.lista h3 {
+  margin-top: 0;
+}
+
+.lista ul {
+  list-style: none;
+  padding: 0;
+}
+
+.lista li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.3rem;
+}
+
+.lista li span {
+  flex-grow: 1;
+}
+
+button.eliminar-producto,
+button.eliminar-lista {
+  background-color: crimson;
+  color: white;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+
+form.agregar-producto {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
